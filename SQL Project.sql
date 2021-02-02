@@ -25,9 +25,13 @@ review Varchar (255) NOT NULL);
 --Insert Reviews
 insert into reviewers(video_id, username, rating, review) 
 values 
+
 (1, 'Gabby', 5 , 'So funny!'),
 (3, 'Stacey', 4, 'I love the Jonas Brothers!'),
-(2, 'Nate', 2, 'HAHAH');
+(2, 'Nate', 2, 'HAHAH'),
+(3, 'Ted', 3, 'very very funny'),
+(1, 'Rebecca', 5, 'I love this video'),
+(2, 'Ross', 4, 'LOLLL');
 
 select * from reviewers
 
